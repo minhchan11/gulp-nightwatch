@@ -1,38 +1,86 @@
-12:18:08.737 INFO - Selenium build info: version: '3.3.0', revision: 'b526bd5'
-12:18:08.738 INFO - Launching a standalone Selenium Server
-2017-07-17 12:18:08.752:INFO::main: Logging initialized @195ms to org.seleniumhq.jetty9.util.log.StdErrLog
-12:18:08.798 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+13:42:36.272 INFO - Selenium build info: version: '3.3.0', revision: 'b526bd5'
+13:42:36.273 INFO - Launching a standalone Selenium Server
+2017-07-17 13:42:36.289:INFO::main: Logging initialized @208ms to org.seleniumhq.jetty9.util.log.StdErrLog
+13:42:36.336 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-12:18:08.798 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+13:42:36.336 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-12:18:08.798 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-12:18:08.798 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+13:42:36.336 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:42:36.337 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-12:18:08.798 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-12:18:08.798 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2017-07-17 12:18:08.837:INFO:osjs.Server:main: jetty-9.2.20.v20161216
-2017-07-17 12:18:08.869:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@685cb137{/,null,AVAILABLE}
-2017-07-17 12:18:08.895:INFO:osjs.AbstractConnector:main: Started ServerConnector@2e7516c5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-07-17 12:18:08.895:INFO:osjs.Server:main: Started @338ms
-12:18:08.895 INFO - Selenium Server is up and running
-12:18:09.078 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-12:18:09.096 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]])
-12:18:09.107 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]
-Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 2751
+13:42:36.337 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:42:36.337 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-07-17 13:42:36.378:INFO:osjs.Server:main: jetty-9.2.20.v20161216
+2017-07-17 13:42:36.414:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@685cb137{/,null,AVAILABLE}
+2017-07-17 13:42:36.442:INFO:osjs.AbstractConnector:main: Started ServerConnector@5bcab519{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-17 13:42:36.443:INFO:osjs.Server:main: Started @362ms
+13:42:36.443 INFO - Selenium Server is up and running
+13:42:36.638 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+13:42:36.659 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]])
+13:42:36.670 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]
+Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 22781
 Only local connections are allowed.
-12:18:10.136 INFO - Detected dialect: OSS
-12:18:10.157 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]]
-12:18:10.181 INFO - Executing: [get: localhost:3000])
-12:18:10.602 INFO - Done: [get: localhost:3000]
-12:18:10.611 INFO - Executing: [find elements: By.cssSelector: body])
-12:18:10.643 INFO - Done: [find elements: By.cssSelector: body]
-12:18:10.651 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7d4b17b3c9baa953c5c3a2fa1ec6f241)] -> css selector: body]])
-12:18:10.670 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7d4b17b3c9baa953c5c3a2fa1ec6f241)] -> css selector: body]]
-12:18:10.674 INFO - Executing: [get title])
-12:18:10.678 INFO - Done: [get title]
-12:18:10.682 INFO - Executing: [find elements: By.cssSelector: input[id="percentCar"]])
-12:18:10.696 INFO - Done: [find elements: By.cssSelector: input[id="percentCar"]]
-12:18:10.701 INFO - Executing: [take screenshot])
-12:18:11.013 INFO - Done: [take screenshot]
-12:18:11.036 INFO - Executing: [delete session: b9ef355a-c132-4bc4-a61b-a479ddec5e20])
-12:18:11.115 INFO - Done: [delete session: b9ef355a-c132-4bc4-a61b-a479ddec5e20]
+13:42:37.688 INFO - Detected dialect: OSS
+13:42:37.710 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]]
+13:42:37.732 INFO - Executing: [get: localhost:3000])
+13:42:38.159 INFO - Done: [get: localhost:3000]
+13:42:38.168 INFO - Executing: [find elements: By.cssSelector: body])
+13:42:38.201 INFO - Done: [find elements: By.cssSelector: body]
+13:42:38.205 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: body]])
+13:42:38.225 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: body]]
+13:42:38.231 INFO - Executing: [get title])
+13:42:38.238 INFO - Done: [get title]
+13:42:38.242 INFO - Executing: [find elements: By.cssSelector: input[id="percentCar"]])
+13:42:38.258 INFO - Done: [find elements: By.cssSelector: input[id="percentCar"]]
+13:42:38.264 INFO - Executing: [find element: By.cssSelector: #percentCar])
+13:42:38.280 INFO - Done: [find element: By.cssSelector: #percentCar]
+13:42:38.294 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: input[id="percentCar"]], [8, 9]])
+13:42:38.352 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: input[id="percentCar"]], [8, 9]]
+13:42:38.355 INFO - Executing: [find element: By.cssSelector: #percentSUTruck])
+13:42:38.372 INFO - Done: [find element: By.cssSelector: #percentSUTruck]
+13:42:38.374 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #percentSUTruck], [6]])
+13:42:38.410 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #percentSUTruck], [6]]
+13:42:38.413 INFO - Executing: [find element: By.cssSelector: #percentCTruck])
+13:42:38.430 INFO - Done: [find element: By.cssSelector: #percentCTruck]
+13:42:38.433 INFO - Executing: [send keys: 3 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #percentCTruck], [5]])
+13:42:38.469 INFO - Done: [send keys: 3 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #percentCTruck], [5]]
+13:42:38.472 INFO - Executing: [find element: By.cssSelector: #initial])
+13:42:38.488 INFO - Done: [find element: By.cssSelector: #initial]
+13:42:38.491 INFO - Executing: [send keys: 4 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #initial], [5, 5]])
+13:42:38.533 INFO - Done: [send keys: 4 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #initial], [5, 5]]
+13:42:38.537 INFO - Executing: [find element: By.cssSelector: #reduce])
+13:42:38.553 INFO - Done: [find element: By.cssSelector: #reduce]
+13:42:38.556 INFO - Executing: [send keys: 5 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #reduce], [4, 0]])
+13:42:38.595 INFO - Done: [send keys: 5 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #reduce], [4, 0]]
+13:42:38.600 INFO - Executing: [find element: By.cssSelector: #submitButton])
+13:42:38.616 INFO - Done: [find element: By.cssSelector: #submitButton]
+13:42:38.618 INFO - Executing: [click: 6 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #submitButton]])
+13:42:38.666 INFO - Done: [click: 6 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #submitButton]]
+13:42:38.671 INFO - Executing: [find element: By.cssSelector: #resultTotal])
+13:42:38.697 INFO - Done: [find element: By.cssSelector: #resultTotal]
+13:42:38.700 INFO - Executing: [get text: 7 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultTotal]])
+13:42:38.723 INFO - Done: [get text: 7 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultTotal]]
+13:42:38.727 INFO - Executing: [find element: By.cssSelector: #resultCar])
+13:42:38.749 INFO - Done: [find element: By.cssSelector: #resultCar]
+13:42:38.752 INFO - Executing: [get text: 8 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultCar]])
+13:42:38.776 INFO - Done: [get text: 8 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultCar]]
+13:42:38.780 INFO - Executing: [find element: By.cssSelector: #resultSUTruck])
+13:42:38.805 INFO - Done: [find element: By.cssSelector: #resultSUTruck]
+13:42:38.807 INFO - Executing: [get text: 9 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultSUTruck]])
+13:42:38.823 INFO - Done: [get text: 9 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultSUTruck]]
+13:42:38.827 INFO - Executing: [find element: By.cssSelector: #resultCTruck])
+13:42:38.843 INFO - Done: [find element: By.cssSelector: #resultCTruck]
+13:42:38.844 INFO - Executing: [get text: 10 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultCTruck]])
+13:42:38.860 INFO - Done: [get text: 10 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultCTruck]]
+13:42:38.863 INFO - Executing: [find element: By.cssSelector: #resultDay])
+13:42:38.880 INFO - Done: [find element: By.cssSelector: #resultDay]
+13:42:38.882 INFO - Executing: [get text: 11 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultDay]])
+13:42:38.898 INFO - Done: [get text: 11 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultDay]]
+13:42:38.901 INFO - Executing: [find element: By.cssSelector: #resultMonth])
+13:42:38.917 INFO - Done: [find element: By.cssSelector: #resultMonth]
+13:42:38.921 INFO - Executing: [get text: 12 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultMonth]])
+13:42:38.937 INFO - Done: [get text: 12 [[ChromeDriver: chrome on MAC (2a779eff62478535f36564b8204f846e)] -> css selector: #resultMonth]]
+13:42:38.939 INFO - Executing: [take screenshot])
+13:42:39.232 INFO - Done: [take screenshot]
+13:42:39.258 INFO - Executing: [delete session: c4a041bb-d778-4580-b6dd-17327d1cec44])
+13:42:39.339 INFO - Done: [delete session: c4a041bb-d778-4580-b6dd-17327d1cec44]
