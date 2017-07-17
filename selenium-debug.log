@@ -1,38 +1,38 @@
-11:08:54.384 INFO - Selenium build info: version: '3.3.0', revision: 'b526bd5'
-11:08:54.385 INFO - Launching a standalone Selenium Server
-2017-07-17 11:08:54.403:INFO::main: Logging initialized @211ms to org.seleniumhq.jetty9.util.log.StdErrLog
-11:08:54.451 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+12:18:08.737 INFO - Selenium build info: version: '3.3.0', revision: 'b526bd5'
+12:18:08.738 INFO - Launching a standalone Selenium Server
+2017-07-17 12:18:08.752:INFO::main: Logging initialized @195ms to org.seleniumhq.jetty9.util.log.StdErrLog
+12:18:08.798 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
  registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
-11:08:54.451 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+12:18:08.798 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
  registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
-11:08:54.451 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-11:08:54.451 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
+12:18:08.798 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:18:08.798 INFO - Driver provider com.opera.core.systems.OperaDriver registration is skipped:
 Unable to create new instances on this machine.
-11:08:54.452 INFO - Driver class not found: com.opera.core.systems.OperaDriver
-11:08:54.452 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
-2017-07-17 11:08:54.491:INFO:osjs.Server:main: jetty-9.2.20.v20161216
-2017-07-17 11:08:54.525:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@685cb137{/,null,AVAILABLE}
-2017-07-17 11:08:54.551:INFO:osjs.AbstractConnector:main: Started ServerConnector@5bcab519{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
-2017-07-17 11:08:54.552:INFO:osjs.Server:main: Started @359ms
-11:08:54.552 INFO - Selenium Server is up and running
-11:08:54.743 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
-11:08:54.762 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, platform=ANY}]])
-11:08:54.773 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, platform=ANY}]
-Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 16054
+12:18:08.798 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+12:18:08.798 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+2017-07-17 12:18:08.837:INFO:osjs.Server:main: jetty-9.2.20.v20161216
+2017-07-17 12:18:08.869:INFO:osjsh.ContextHandler:main: Started o.s.j.s.ServletContextHandler@685cb137{/,null,AVAILABLE}
+2017-07-17 12:18:08.895:INFO:osjs.AbstractConnector:main: Started ServerConnector@2e7516c5{HTTP/1.1,[http/1.1]}{0.0.0.0:4444}
+2017-07-17 12:18:08.895:INFO:osjs.Server:main: Started @338ms
+12:18:08.895 INFO - Selenium Server is up and running
+12:18:09.078 INFO - SessionCleaner initialized with insideBrowserTimeout 0 and clientGoneTimeout 1800000 polling every 180000
+12:18:09.096 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]])
+12:18:09.107 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]
+Starting ChromeDriver 2.30.477690 (c53f4ad87510ee97b5c3425a14c0e79780cdf262) on port 2751
 Only local connections are allowed.
-11:08:55.732 INFO - Detected dialect: OSS
-11:08:55.751 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, platform=ANY}]]
-11:08:55.769 INFO - Executing: [set window size])
-11:08:55.917 INFO - Done: [set window size]
-11:08:55.922 INFO - Executing: [get: localhost:3000])
-11:08:56.251 INFO - Done: [get: localhost:3000]
-11:08:56.257 INFO - Executing: [find elements: By.cssSelector: body])
-11:08:56.287 INFO - Done: [find elements: By.cssSelector: body]
-11:08:56.292 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (e720291194466250d30f467e508de04f)] -> css selector: body]])
-11:08:56.316 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (e720291194466250d30f467e508de04f)] -> css selector: body]]
-11:08:56.321 INFO - Executing: [get title])
-11:08:56.328 INFO - Done: [get title]
-11:08:56.334 INFO - Executing: [take screenshot])
-11:08:56.613 INFO - Done: [take screenshot]
-11:08:56.648 INFO - Executing: [delete session: 8d0e97a7-6f5d-4144-bbcb-a6c76884c6fe])
-11:08:56.741 INFO - Done: [delete session: 8d0e97a7-6f5d-4144-bbcb-a6c76884c6fe]
+12:18:10.136 INFO - Detected dialect: OSS
+12:18:10.157 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Calculate, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]]
+12:18:10.181 INFO - Executing: [get: localhost:3000])
+12:18:10.602 INFO - Done: [get: localhost:3000]
+12:18:10.611 INFO - Executing: [find elements: By.cssSelector: body])
+12:18:10.643 INFO - Done: [find elements: By.cssSelector: body]
+12:18:10.651 INFO - Executing: [is displayed: 0 [[ChromeDriver: chrome on MAC (7d4b17b3c9baa953c5c3a2fa1ec6f241)] -> css selector: body]])
+12:18:10.670 INFO - Done: [is displayed: 0 [[ChromeDriver: chrome on MAC (7d4b17b3c9baa953c5c3a2fa1ec6f241)] -> css selector: body]]
+12:18:10.674 INFO - Executing: [get title])
+12:18:10.678 INFO - Done: [get title]
+12:18:10.682 INFO - Executing: [find elements: By.cssSelector: input[id="percentCar"]])
+12:18:10.696 INFO - Done: [find elements: By.cssSelector: input[id="percentCar"]]
+12:18:10.701 INFO - Executing: [take screenshot])
+12:18:11.013 INFO - Done: [take screenshot]
+12:18:11.036 INFO - Executing: [delete session: b9ef355a-c132-4bc4-a61b-a479ddec5e20])
+12:18:11.115 INFO - Done: [delete session: b9ef355a-c132-4bc4-a61b-a479ddec5e20]

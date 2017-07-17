@@ -30,11 +30,31 @@ module.exports = {
         "browserName": "chrome"
       }
     },
+    "local": {
+      "launch_url": "http://localhost",
+      "selenium_port": 4444,
+      "selenium_host": "127.0.0.1",
+      "silent": true,
+      "screenshots": {
+        "enabled": true, // save screenshots taken here
+        "path": SCREENSHOT_PATH
+      }, // this allows us to control the
+      "globals": {
+        "waitForConditionTimeout": 15000 // on localhost sometimes internet is slow so wait...
+      },
+      "desiredCapabilities": {
+        "browserName": "chrome",
+        "chromeOptions": {
+         "args": ["start-fullscreen"]
+       },
+        "javascriptEnabled": true,
+        "acceptSslCerts": true
+      }
+    },
     "chrome": {
       "desiredCapabilities": {
         "browserName": "chrome",
-        "javascriptEnabled": true, // turn off to test progressive enhancement
-        "resolution": "800x600"
+        "javascriptEnabled": true// turn off to test progressive enhancement
       }
     }
   }

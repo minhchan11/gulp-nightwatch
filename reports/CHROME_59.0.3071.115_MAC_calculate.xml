@@ -5,9 +5,11 @@
 
   <testsuite name="calculate"
     errors="0" failures="0" hostname="" id="" package="calculate" skipped="0"
-    tests="1" time="2.126" timestamp="Mon, 17 Jul 2017 18:08:54 GMT">
+    tests="1" time="2.165" timestamp="Mon, 17 Jul 2017 19:18:08 GMT">
   
-    <testcase name="Assert if title is VOC Calculation" classname="calculate" time="2.126" assertions="2">
+    <testcase name="Assert if title is VOC Calculation" classname="calculate" time="2.165" assertions="3">
+
+    
 
     
 
