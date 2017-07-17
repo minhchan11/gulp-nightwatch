@@ -4,7 +4,9 @@
   "description": "using nightwatch for testing",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "postinstall": "node nightwatch.conf.js",
+    "test": "./node_modules/.bin/nightwatch --env local",
+    "e2e": "nightwatch --config nightwatch.conf.js"
   },
   "repository": {
     "type": "git",
@@ -24,10 +26,9 @@
     "gulp-uglify": "^2.1.0",
     "gulp-util": "^3.0.8",
     "jshint": "^2.9.4",
+    "nightwatch": "^0.9.16",
+    "selenium-download": "^2.0.10",
     "vinyl-source-stream": "^1.1.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Minh Phuong",
   "license": "ISC",

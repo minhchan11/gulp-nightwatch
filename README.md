@@ -22,6 +22,8 @@ Website to calculate VOC
 > $ bower install
 > $ gulp build
 > $ gulp serve
+> $ node nightwatch.conf.js
+> $ npm run e2e
 ```
 * Requires Node.js
 * Navigate to http://localhost:3000 in web browser of choice
